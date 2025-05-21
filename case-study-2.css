@@ -6,6 +6,95 @@
     border-color: black;
 }
 
+
+/* FONTS */
+
+.H1{
+    font-size: 2.7rem;
+    font-family: "martel sans", "montserrat";
+    color: #22231B;
+    font-weight: 600;
+    line-height: 180%;
+
+}
+
+.H2{
+    font-size: 1.25rem;
+    font-family: "martel sans", "montserrat";
+    color: #22231B;
+    font-weight: 400;
+    line-height: 180%;
+
+}
+
+.H3{
+    font-size: 1.4rem;
+    font-family: "martel sans", "montserrat";
+    color: #964B1C;
+    font-weight: 600;
+    line-height: 300%;
+}
+
+
+.H4{
+    font-size: 1.2rem;
+    font-family: "martel sans", "montserrat";
+    color: #964B1C;
+    font-weight: 600;
+    line-height: 200%;
+}
+
+.H5{
+    font-size: 1.8rem;
+    font-family: "martel sans", "montserrat";
+    color: #964B1C;
+    font-weight: 600;
+    line-height: 250%;
+}
+
+.H6{
+    font-size: 0.9rem;
+    font-family: "martel sans", "montserrat";
+    color: black;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.H7{
+    font-size: 1.2rem;
+    font-family: "martel sans", "montserrat";
+    color: #964B1C;
+    font-weight: 600;
+    line-height: 210%;
+}
+
+.P1{
+    font-size: 1.1rem;
+    font-family: "martel sans", "montserrat";
+    color: black;
+    font-weight: 400;
+    line-height: 210%;
+}
+
+.P2{
+    font-size: 0.8rem;
+    font-family: "martel sans", "montserrat";
+    color: black;
+    font-weight: 400;
+    line-height: 210%;
+}
+
+.P3{
+    font-size: 1.1rem;
+    font-family: "martel sans", "montserrat";
+    color: black;
+    font-weight: 600;
+    line-height: 250%;
+}
+
+
+/* STRUCTURE */
+
 .body{
     background-color: #EBEBEB;
 }
@@ -21,32 +110,100 @@
     flex-direction: column;
     padding-left: 120px;
     padding-right: 120px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     gap:70px;
+    border-bottom: 0px;
+    border-left:0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-style: solid;
+    border-color: black;
 }
+
+/* TITLE PAGE */
 
 #title-page{
     background-color: #d8d8c4;
     height: 720px;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    width: 100%;
+    max-width:1245px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    overflow: hidden;
+  
+ 
+    
 }
 
-.H3{
-    font-size: 1.4rem;
-    font-family: "martel sans", "montserrat";
-    color: #964B1C;
-    font-weight: 600;
-    line-height: 300%;
+#title-page-text{
+    grid-column: 2/10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    padding-left: 30px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    gap:30px
+    
+    
 }
 
 
-.P1{
-    font-size: 1.1rem;
-    font-family: "martel sans", "montserrat";
-    color: black;
-    font-weight: 400;
-    line-height: 210%;
+
+#title-page-image-container{
+    grid-column: 11/15;
+    height: 100%;
+    width:100%;
+    background-color: #93986D;
+    
+    
 }
+
+#title-page-image{
+    position:absolute;
+    background-image: url(./images/DAFF.png);
+    height: 500px;
+    width: 500px;
+    top:30%;
+    right:2.5%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    rotate: 32deg;
+    scale: 1.4;
+
+
+}
+
+#title-icons{
+    display: flex;
+    gap: 20px;
+
+
+}
+
+#miro{
+    height:80px;
+    width:80px;
+    background-image: url(./images/miro-icon.png);
+    background-position: center;
+    background-size: contain;
+}
+
+#figma{
+    height:80px;
+    width:80px;
+    background-image: url(./images/figma-icon.png);
+    background-position: center;
+    background-size: contain;
+}
+
+/* CASE STUDY CONTEXT*/
 
 #the-goal{
     display: flex;
@@ -73,4 +230,309 @@
     height: auto;
     width: 50%;
 
+}
+
+/* USER CENTERED DESIGN */
+
+#UCD-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#UCD-chart{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.chart-children{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+
+}
+
+.chart-icon{
+    height: 120px;
+    width: 120px;
+    background-color: #B3B98B;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#icon-1{
+    background-color: #B3B98B;
+    background-image: url(./images/ICON\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+
+#icon-2{
+    background-color: #CABF88;
+    background-image: url(./images/ICON\ 2.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+
+#icon-3{
+    background-color: #E0E6BC;
+    background-image: url(./images/ICON\ 3.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+
+#icon-4{
+    background-color: #B3B98B;
+    background-image: url(./images/ICON\ 4.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+
+#icon-5{
+    background-color: #CABF88;
+    background-image: url(./images/ICON\ 5.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+
+
+.chart-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+}
+
+
+
+/* USER RESEARCH - DOT POINTS */
+
+#UL{
+    list-style-type:lower-alpha;
+    padding-left: 40px;
+    font-size: 1.1rem;
+    font-family: "martel sans", "montserrat";
+    color: black;
+    font-weight: 400;
+    line-height: 210%;
+}
+
+
+/* USER TESTING */
+
+#original-website-analysis{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    height: 1500px;
+}
+
+
+#original-website-image{
+    grid-column: 1/9;
+    background-image: url(./images/Webpage-DAFF.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#original-website-notes{
+    grid-column: 9/13;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap:30px;
+}
+
+
+
+
+
+/* COMPETITOR ANALYSIS */
+
+
+#competitor-analysis-chart{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    height: auto;
+    padding: 40px;
+    border-radius: 10px;
+    border: 2px;
+    border-style:dashed;
+    border-color: black;
+    gap:5px;
+
+}
+
+.Competitor-analysis-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    gap: 5px;
+
+}
+
+.column-cell{
+    height: 100px;
+    background-color: #D8DBC4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+
+
+
+.cross{
+    background-image: url(./images/Cross.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+
+}
+
+.tick{
+    background-image: url(./images/Tick.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+
+}
+
+#government-department-1{
+    background-image: url(./images/QLD-GOV-LOGO.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 90px;
+    width: 90px;
+
+}
+
+#government-department-2{
+    background-image: url(./images/VIC-GOV-LOGO.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 90px;
+    width: 90px;
+
+}
+
+#government-department-3{
+    background-image: url(./images/NSW-GOV-LOGO.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 90px;
+    width: 90px;
+
+}
+
+#government-department-4{
+    background-image: url(./images/SA-GOV-LOGO.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 90px;
+    width: 90px;
+
+}
+
+#government-department-5{
+    background-image: url(./images/TAS-GOV-LOGO.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 90px;
+    width: 90px;
+
+}
+
+#cell-0{
+    background-color: white;
+}
+
+#cell-1{
+    background-color: #E4E4E0;
+}
+
+#cell-2{
+    background-color: #D8DBC4;
+}
+
+#cell-3{
+    background-color: #E4DEC3;
+}
+
+#cell-4{
+    background-color: #F3F5E2;
+}
+
+#cell-5{
+    background-color: #D8DBC4;
+}
+
+#cell-6{
+    background-color: #E4DEC3;
+}
+
+#competitor-analysis{
+    gap:40px;
+}
+
+
+
+/* SUMMARY OF RESEARCH FINDINGS */
+
+#research-summary-points{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding-top: 20px;
+    
+}
+
+/* USER PERSONA */
+
+#user-persona-image{
+    Height:700px;
+    width:100%;
+    background-image: url(./images/User\ Persona.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 20px;
+}
+
+/* USER JOURNEY */
+
+#user-journey-image{
+    Height: 550px;;
+    width:100%;
+    background-image: url(./images/User\ journey\ map.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 20px;
+    
 }
