@@ -92,6 +92,23 @@
     line-height: 250%;
 }
 
+.P4{
+    font-size: 1.0 rem;
+    font-family: "martel sans", "montserrat";
+    color: black;
+    font-weight: 600;
+    line-height: 210%;
+}
+
+.P5{
+    font-size: 1.0 rem;
+    font-family: "martel sans", "montserrat";
+    color: black;
+    font-weight: 400;
+    line-height: 210%;
+}
+
+
 
 /* STRUCTURE */
 
@@ -535,4 +552,278 @@
     background-size: contain;
     margin-top: 20px;
     
+}
+
+/* THE SOLUTION */
+
+#OL{
+    list-style-type:decimal;
+    padding-left: 40px;
+    font-size: 1.1rem;
+    font-family: "martel sans", "montserrat";
+    color: black;
+    font-weight: 400;
+    line-height: 210%;
+}
+
+#Solution-grid{
+    display:grid;
+    grid-template-columns: repeat(12, 1fr);
+    height: auto;
+}
+
+#the-solution-text{
+    grid-column: 1/8;
+    z-index: 1;
+}
+
+#The-Solution{
+    gap:50px;
+    position: relative;
+}
+
+#the-solution-image{
+    height: 500px;;
+    width: 500px;
+    scale: 1.2;
+    background-image: url(./images/The-solution-image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    overflow: visible;
+    position: absolute;
+    right: 0px;
+    top:275px;
+    
+}
+
+/* IA */
+
+.site-map-container{
+    width: 100%;
+    height:400px;
+    padding: 40px;
+    border-radius: 10px;
+    border: 2px;
+    border-style:dashed;
+    border-color: black;
+
+}
+
+#site-map-header{
+    height: 100%;
+    width: 100%;
+    background-image: url(./images/Site-Map-Header.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+
+#site-map-footer{
+    height: 100%;
+    width: 100%;
+    background-image: url(./images/Site-Map-Footer.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+#IA{
+    gap:50px;
+}
+
+/* RESPONSIVE DESIGN  */
+
+.grid-example{
+    width: 100%;
+    height: 2000px;
+    
+
+}
+
+#twelve-column-grid{
+    height: 100%;
+    width: 100%;
+    background-image: url(./images/Grid-images.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 20px;
+
+}
+
+/* HIGH FIDELITY   */
+
+#high-fidelity-wireframes{
+    padding-top: 50px;
+    gap:50px;
+
+
+}
+
+#new-website-analysis{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    height: auto;
+
+
+}
+
+
+#new-website-image{
+    grid-column: 1/9;
+    background-image: url(./images/HF\ DESKTOP.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 3000px;
+
+}
+
+#new-website-notes{
+    grid-column: 9/13;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 50px;
+}
+
+#new-website-analysis-2{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    height: auto;
+
+
+}
+
+
+#new-website-image-2{
+    grid-column: 1/6;
+    background-image: url(./images/HF-IPAD.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 4000px;
+    width: 100%;
+
+}
+
+#new-website-image-3{
+    grid-column: 7/9;
+    background-image: url(./images/HF-IPHONE.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 4000px;
+
+}
+
+
+/* LIMITATIONS AND FUTURE CONSIDERATIONS */
+
+#limitations-grid{
+    display:grid;
+    grid-template-columns: repeat(12, 1fr);
+    height: auto;
+}
+
+#limitations-text{
+    grid-column: 1/9;
+    z-index: 1;
+}
+
+#limitations{
+    gap:50px;
+    position: relative;
+    padding-bottom: 150px;
+    
+
+}
+
+#limitations-image{
+    height: 200px;
+    width: 200px;
+    scale: 2.0;
+    background-image: url(./images/limitations-image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: visible;
+    position:absolute;
+    top: 160px;
+    right:80px
+   
+    
+}
+
+/* LOW FIDELITY */
+
+#low-fidelity-wireframes{
+    padding-top: 50px;
+    gap:50px;
+ 
+
+}
+
+
+#Low-fidelity-grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    height: auto;
+    gap: 50px;
+
+
+}
+
+
+#low-fidelity-1{
+    grid-column: 1/7;
+    background-image: url(./images/Low-fidelity-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 2000px;
+    width: 100%;
+
+}
+
+#low-fidelity-2{
+    grid-column: 7/13;
+    background-image: url(./images/Low-Fidelity-2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+
+}
+
+/* STYLE GUIDE */
+
+#style-guide{
+    padding-top: 50px;
+    gap:50px;
+ 
+
+}
+
+.style-guide-example{
+    width: 100%;
+    height: fit-content;
+    padding: 40px;
+    border-radius: 10px;
+    border: 2px;
+    border-style:dashed;
+    border-color: black;
+    
+
+}
+
+#style-guide-image{
+    height: 1500px;
+    width: 100%;
+    background-image: url(./images/Style\ Guide.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 20px;
+
 }
