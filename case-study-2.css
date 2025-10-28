@@ -183,16 +183,17 @@
 
 #title-page-image{
     position:absolute;
-    background-image: url(./images/DAFF.png);
+    background-image: url(./images/casestudy2-images/DAFF-mockup.svg);
     height: 500px;
     width: 500px;
-    top:30%;
+    top:32%;
     right:2.5%;
     overflow: hidden;
     background-repeat: no-repeat;
     background-position: center;
-    rotate: 32deg;
-    scale: 1.4;
+    background-size: contain;
+    scale: 2.0;
+
 
 
 }
@@ -207,7 +208,7 @@
 #miro{
     height:80px;
     width:80px;
-    background-image: url(./images/miro-icon.png);
+    background-image: url(./images/casestudy2-images/miro-icon.svg);
     background-position: center;
     background-size: contain;
 }
@@ -215,7 +216,7 @@
 #figma{
     height:80px;
     width:80px;
-    background-image: url(./images/figma-icon.png);
+    background-image: url(./images/casestudy2-images/figma-icon.svg);
     background-position: center;
     background-size: contain;
 }
@@ -232,7 +233,7 @@
 #the-goal-image{
     height: 500px;
     width: 400px;
-    background-image: url(./images/The-goal-image.png);
+    background-image: url(./images/casestudy2-images/The-goal-image.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -283,7 +284,7 @@
 
 #icon-1{
     background-color: #B3B98B;
-    background-image: url(./images/ICON\ 1.png);
+    background-image: url(./images/casestudy2-images/ICON\ 1.svg);
     background-repeat: no-repeat;
     background-size: 70%;
     background-position: center;
@@ -291,7 +292,7 @@
 
 #icon-2{
     background-color: #CABF88;
-    background-image: url(./images/ICON\ 2.png);
+    background-image: url(./images/casestudy2-images/ICON\ 2.svg);
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: center;
@@ -299,7 +300,7 @@
 
 #icon-3{
     background-color: #E0E6BC;
-    background-image: url(./images/ICON\ 3.png);
+    background-image: url(./images/casestudy2-images/ICON\ 3.svg);
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: center;
@@ -307,7 +308,7 @@
 
 #icon-4{
     background-color: #B3B98B;
-    background-image: url(./images/ICON\ 4.png);
+    background-image: url(./images/casestudy2-images/ICON\ 4.svg);
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: center;
@@ -315,7 +316,7 @@
 
 #icon-5{
     background-color: #CABF88;
-    background-image: url(./images/ICON\ 5.png);
+    background-image: url(./images/casestudy2-images/ICON\ 5.svg);
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: center;
@@ -355,7 +356,7 @@
 
 #original-website-image{
     grid-column: 1/9;
-    background-image: url(./images/Webpage-DAFF.png);
+    background-image: url(./images/casestudy2-images/Webpage-DAFF.svg);
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -418,7 +419,7 @@
 
 
 .cross{
-    background-image: url(./images/Cross.png);
+    background-image: url(./images/casestudy2-images/Cross.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -428,7 +429,7 @@
 }
 
 .tick{
-    background-image: url(./images/Tick.png);
+    background-image: url(./images/casestudy2-images/Tick.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -438,7 +439,7 @@
 }
 
 #government-department-1{
-    background-image: url(./images/QLD-GOV-LOGO.png);
+    background-image: url(./images/casestudy2-images/QLD-GOV-LOGO.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -448,7 +449,7 @@
 }
 
 #government-department-2{
-    background-image: url(./images/VIC-GOV-LOGO.png);
+    background-image: url(./images/casestudy2-images/VIC-GOV-LOGO.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -458,7 +459,7 @@
 }
 
 #government-department-3{
-    background-image: url(./images/NSW-GOV-LOGO.png);
+    background-image: url(./images/casestudy2-images/NSW-GOV-LOGO.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -468,7 +469,7 @@
 }
 
 #government-department-4{
-    background-image: url(./images/SA-GOV-LOGO.png);
+    background-image: url(./images/casestudy2-images/SA-GOV-LOGO.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -478,7 +479,7 @@
 }
 
 #government-department-5{
-    background-image: url(./images/TAS-GOV-LOGO.png);
+    background-image: url(./images/casestudy2-images/TAS-GOV-LOGO.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -536,7 +537,7 @@
 #user-persona-image{
     Height:700px;
     width:100%;
-    background-image: url(./images/User\ Persona.png);
+    background-image: url(./images/casestudy2-images/User\ Persona.svg);
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: 20px;
@@ -547,7 +548,7 @@
 #user-journey-image{
     Height: 550px;;
     width:100%;
-    background-image: url(./images/User\ journey\ map.png);
+    background-image: url(./images/casestudy2-images/User\ journey\ map.svg);
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: 20px;
@@ -585,8 +586,8 @@
 #the-solution-image{
     height: 500px;;
     width: 500px;
-    scale: 1.2;
-    background-image: url(./images/The-solution-image.png);
+    scale: 1.1;
+    background-image: url(./images/casestudy2-images/The-solution-image.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -613,7 +614,7 @@
 #site-map-header{
     height: 100%;
     width: 100%;
-    background-image: url(./images/Site-Map-Header.png);
+    background-image: url(./images/casestudy2-images/Site-Map-Header.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -624,7 +625,7 @@
 #site-map-footer{
     height: 100%;
     width: 100%;
-    background-image: url(./images/Site-Map-Footer.png);
+    background-image: url(./images/casestudy2-images/Site-Map-Footer.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -647,7 +648,7 @@
 #twelve-column-grid{
     height: 100%;
     width: 100%;
-    background-image: url(./images/Grid-images.png);
+    background-image: url(./images/casestudy2-images/Grid-images.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -675,7 +676,7 @@
 
 #new-website-image{
     grid-column: 1/9;
-    background-image: url(./images/HF\ DESKTOP.png);
+    background-image: url(./images/casestudy2-images/HF\ DESKTOP.svg);
     background-size: contain;
     background-repeat: no-repeat;
     height: 3000px;
@@ -702,7 +703,7 @@
 
 #new-website-image-2{
     grid-column: 1/6;
-    background-image: url(./images/HF-IPAD.png);
+    background-image: url(./images/casestudy2-images/HF-IPAD.svg);
     background-size: contain;
     background-repeat: no-repeat;
     height: 4000px;
@@ -712,7 +713,7 @@
 
 #new-website-image-3{
     grid-column: 7/9;
-    background-image: url(./images/HF-IPHONE.png);
+    background-image: url(./images/casestudy2-images/HF-IPHONE.svg);
     background-size: contain;
     background-repeat: no-repeat;
     height: 4000px;
@@ -744,8 +745,8 @@
 #limitations-image{
     height: 200px;
     width: 200px;
-    scale: 2.0;
-    background-image: url(./images/limitations-image.png);
+    scale: 2;
+    background-image: url(./images/casestudy2-images/limitations-image.svg);
     background-repeat: no-repeat;
     background-size: contain;
     overflow: visible;
@@ -778,7 +779,7 @@
 
 #low-fidelity-1{
     grid-column: 1/7;
-    background-image: url(./images/Low-fidelity-1.png);
+    background-image: url(./images/casestudy2-images/Low-fidelity-1.svg);
     background-size: contain;
     background-repeat: no-repeat;
     height: 2000px;
@@ -788,7 +789,7 @@
 
 #low-fidelity-2{
     grid-column: 7/13;
-    background-image: url(./images/Low-Fidelity-2.png);
+    background-image: url(./images/casestudy2-images/Low-Fidelity-2.svg);
     background-size: contain;
     background-repeat: no-repeat;
     height: auto;
@@ -820,7 +821,7 @@
 #style-guide-image{
     height: 1500px;
     width: 100%;
-    background-image: url(./images/Style\ Guide.png);
+    background-image: url(./images/casestudy2-images/Style\ Guide.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
