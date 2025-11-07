@@ -56,7 +56,7 @@
     font-family: "Montserrat";
     color: #3D1D09;
     font-weight:600;
-    font-size:40px;
+    font-size:36px;
     letter-spacing: 1.0 rem;
     
 }
@@ -65,8 +65,28 @@
     font-family: "Montserrat";
     color: white;
     font-weight:600;
-    font-size:40px;
+    font-size:36px;
     letter-spacing: 1.0 rem;
+    
+}
+
+
+.H7{
+    font-family: "Montserrat";
+    color: black;
+    font-weight:600;
+    font-size:22px;
+    letter-spacing: 1.0 rem;
+    
+}
+
+.H8{
+    font-family: "Montserrat";
+    color: #3D1D09;
+    font-weight:600;
+    font-size: 22px;
+    letter-spacing: 1.0 rem;
+    line-height: 200%;
     
 }
 
@@ -89,6 +109,8 @@
     font-size: 20px;
     letter-spacing: 1.0 rem;
     line-height: 200%;
+    text-align: center;
+    
     
 }
 
@@ -99,6 +121,46 @@
     font-size: 20px;
     letter-spacing: 1.0 rem;
     line-height: 200%;
+    
+}
+
+.P4{
+    font-family: "Montserrat";
+    color:black;
+    font-weight:400;
+    font-size: 14px;
+    letter-spacing: 1.0 rem;
+    line-height: 200%;
+    
+}
+
+.P5{
+    font-family: "Montserrat";
+    color: #3D1D09;
+    font-weight:400;
+    font-size: 18px;
+    letter-spacing: 1.0 rem;
+    line-height: 200%;
+    
+}
+
+.P6{
+    font-family: "Montserrat";
+    color: white;
+    font-weight:600;
+    font-size: 20px;
+    letter-spacing: 1.5 rem;
+    
+    
+}
+
+.P7{
+    font-family: "Montserrat";
+    color: white;
+    font-weight:600;
+    font-size: 16px;
+    letter-spacing: 1.5 rem;
+    
     
 }
 
@@ -313,7 +375,8 @@
     border-radius: 20px;
     padding: 30px;
     display: flex;
-
+    position: relative;
+ 
 }
 
 #example-image-1{
@@ -352,6 +415,55 @@
     height: 750px;
 
 }
+
+#original-website-arrow-home-page{
+    position: absolute;
+    height:196px;
+    width: 196px;
+    background-image: url(./images/casestudy1_images/OW_arrow-homepage.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 40%;
+    left: -175px;
+
+}
+
+#original-website-arrow-adoption{
+    position: absolute;
+    height:224px;
+    width: 185px;
+    background-image: url(./images/casestudy1_images/OW_arrow_adoption.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 40%;
+    left: -130px;
+
+}
+
+#original-website-arrow-donation{
+    position: absolute;
+    height:262px;
+    width: 245px;
+    background-image: url(./images/casestudy1_images/OW_arrow_donation.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 30%;
+    right: -180px;
+
+}
+
+#original-website-arrow-about-us{
+    position: absolute;
+    height:193px;
+    width: 201px;
+    background-image: url(./images/casestudy1_images/OW_arrow_aboutus.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 30%;
+    right: -160px;
+
+}
+
 
 #defining-the-problem{
     background-color: #F9F6F1;
@@ -559,4 +671,552 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.design-proccess-chart{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.design-proccess-chart-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+
+}
+
+.design-proccess-child-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    gap: 5px;
+
+}
+
+.design-proccess-child-icon{
+    height: 150px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#DPC-icon1{
+    background-image: url(./images/casestudy1_images/designproccess_1.svg)
+}
+
+#DPC-icon2{
+    background-image: url(./images/casestudy1_images/designproccess_2.svg)
+}
+
+#DPC-icon3{
+    background-image: url(./images/casestudy1_images/designproccess_3.svg)
+}
+
+#DPC-icon4{
+    background-image: url(./images/casestudy1_images/designproccess_4.svg)
+}
+
+#DPC-icon5{
+    background-image: url(./images/casestudy1_images/designproccess_5.svg)
+}
+
+#design-proccess-heading{
+    color: black;
+}
+
+#the-design-proccess{
+    padding-bottom: 120px;
+    padding-top: 100px;
+}
+
+
+#style-guide{
+    background-color: #F9F6F1;
+    gap:40px;
+}
+
+.style-guide-card-1{
+    background-color: white;
+    border-radius: 20px;
+    padding: 60px;
+    height: fit-content;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    
+}
+.style-guide-card-text{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    height: 430px;
+    width: 45%;
+    justify-content: center;
+    
+}
+
+.style-guide-card-image{
+    width: 55%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+
+#colour-scheme-image{
+    background-image: url(./images/casestudy1_images/SG_colourschemebd.svg);
+    height:430px;
+}
+
+#accessibility-testing-image{
+    background-image: url(./images/casestudy1_images/SG_accessibility.svg);
+    height:430px;
+}
+
+#spacing-image{
+    background-image: url(./images/casestudy1_images/SG_spacing.svg);
+    height:430px;
+}
+
+.style-guide-card-2{
+    background-color: white;
+    border-radius: 20px;
+    padding: 60px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    
+}
+
+.style-guide-card-text-2{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width: 50%;
+    
+}
+
+.style-guide-card-image-2{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(./images/casestudy1_images/SG_typography.svg);
+    height:640px;
+
+}
+
+#typography-text{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+#typography-icon-conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: auto;
+}
+
+.typography-icon{
+    width: 170px;
+    height: 170px;
+    background-image: url(./images/casestudy1_images/typography_logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.style-guide-card-3{
+    background-color: white;
+    border-radius: 20px;
+    padding: 60px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    
+}
+
+.style-guide-card-3-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.style-guide-card-3-image{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+
+#button-image{
+    background-image: url(./images/casestudy1_images/SG_buttons.svg);
+    height:290px;
+
+}
+
+#cards-image{
+    background-image: url(./images/casestudy1_images/SG_cards.svg);
+    height:415px;
+
+}
+
+#navigation-image{
+    background-image: url(./images/casestudy1_images/SG_navigation.svg);
+    height:567px;
+    
+
+}
+
+#style-guide-card-3-alternative{
+    display: flex;
+    height: 345px;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.alternative-small-card{
+    width: 33%;
+}
+
+#icons-image{
+    background-image: url(./images/casestudy1_images/SG_icons.svg);
+    height: 100%;
+
+}
+
+#graphics-image{
+    background-image: url(./images/casestudy1_images/SG_graphics.svg);
+    height: 100%;
+
+}
+
+#Logos-image{
+    background-image: url(./images/casestudy1_images/SG_logo.svg);
+    height: 100%;
+    
+}
+
+#wireframe-progression-image{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(./images/casestudy1_images/wireframe_example.svg);
+    height: 650px;
+    
+}
+
+#low-fidelity-wireframes{
+    height: 860px;
+    display: flex;
+}
+
+#lhs-low-fidelity-wireframe{
+    height: 100%;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/casestudy1_images/Lofi_wireframe1.svg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#lhs-low-fidelity-wireframe-bubble{
+    width: fit-content;
+    height: fit-content;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    background-color: #4A38FF;
+}
+
+
+
+
+
+#rhs-low-fidelity-wireframe{
+    height: 100%;
+    width: 50%;
+    background-color: #E5E4FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#rhs-low-fidelity-wireframe-image{
+    height: 675px;
+    width: 283px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(./images/casestudy1_images/Lofi_wireframe2.svg)
+
+}
+
+#AB_testing{
+    background-color: #F9F6F1;
+}
+
+#AB_testing_card{
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    height: 840px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#AB-testing-card-blue{
+    background-color: #E5E4FF;
+    border-radius: 20px;
+    width: 40%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+#AB-testing-card-orange{
+    background-color: #F7E2D6;
+    border-radius: 20px;
+    width: 40%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position:relative;
+    
+}
+
+.AB_bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+#AB_bubble_blue{
+    background-color: #4A38FF;
+}
+
+#AB_bubble_orange{
+    background-color: #D25F1E;
+}
+
+#AB_image_blue{
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/casestudy1_images/AB_variationA.png)
+
+}
+
+#AB_image_orange{
+    width: 100%;
+    height: 544px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(./images/casestudy1_images/AB_variationB.svg);
+    
+
+}
+
+#AB_arrow{
+    width: 400px;
+    height: 106px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(./images/casestudy1_images/AB_arrow.svg);
+    position: absolute;
+    left:15%;
+    bottom: 5%;
+    scale: 0.9;
+    
+
+}
+
+
+#final-design-examples{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: fit-content;
+}
+
+
+.final-design-example-container{
+    width: 100%;
+    height: fit-content;
+    background-color: #E5E4FF ;
+    border-radius: 20px;
+    padding: 60px;
+    display: flex;
+    position: relative;
+
+}
+
+#final-design-example-image-1{
+    background-image: url(./images/casestudy1_images/Final_1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 613px;
+
+}
+
+#final-design-example-image-3{
+    background-image: url(./images/casestudy1_images/Final_3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1200px;
+
+
+}
+
+#final-design-example-image-2{
+    background-image: url(./images/casestudy1_images/Final_2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 512px;
+
+
+}
+
+#final-design-example-image-4{
+    background-image: url(./images/casestudy1_images/Final_4.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 620px;
+
+
+}
+
+#final-design-example-image-5{
+    background-image: url(./images/casestudy1_images/Final_5.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 400px;
+
+
+}
+
+#final-design-arrow-homepage{
+    position: absolute;
+    height:205px;
+    width: 192px;
+    background-image: url(./images/casestudy1_images/FD_arrow_homepage.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 50%;
+    left: -150px;
+
+}
+
+#final-design-arrow-adoption-form{
+    position: absolute;
+    height:531px;
+    width: 296px;
+    background-image: url(./images/casestudy1_images/FD_arrow_adoptionapp.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 40%;
+    left: -152px;
+
+}
+
+#final-design-arrow-adoption-page{
+    position: absolute;
+    height:199px;
+    width: 250px;
+    background-image: url(./images/casestudy1_images/FD_arrow_adoption.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 50%;
+    right: -195px;
+
+}
+
+#final-design-arrow-profile{
+    position: absolute;
+    height:199px;
+    width: 226px;
+    background-image: url(./images/casestudy1_images/FD_arrow_profile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 40%;
+    right: -180px;
+
+}
+
+#final-design-arrow-donation{
+    position: absolute;
+    height:252px;
+    width: 230px;
+    background-image: url(./images/casestudy1_images/FD_arrow_donation.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 25%;
+    right: -180px;
+
+}
+
+#responsive-design{
+    background-color: #F9F6F1;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+
+
+#responsive-design-image{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(./images/casestudy1_images/responsive_design_image.svg);
+    height: 510px;
+    
+}
+
+#limitations{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
