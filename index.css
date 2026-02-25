@@ -13,7 +13,6 @@
 
 
 
-
 .H1{
     display: flex;
     justify-content: center;
@@ -49,6 +48,7 @@
     font-size:1.1rem;
     letter-spacing: .4rem;
 
+
 }
 
 .H4{
@@ -78,6 +78,8 @@
     color: black;
     font-weight:500;
     font-size:1rem;
+    text-decoration: none;
+    cursor: pointer;
 
 
 }
@@ -95,6 +97,14 @@
 
 }
 
+.a{
+    font-family: "raleway";
+    color: black;
+    font-weight:500;
+    font-size:1rem;
+    text-decoration: none;
+
+}
 
 
 .P1{
@@ -193,6 +203,7 @@
     flex-direction:column;
     width: fit-content;
     position: relative;
+    cursor: pointer;
 }
 
 .underline{
@@ -290,6 +301,7 @@
     align-items: center;
     justify-content: center;
     background-color: #722B0C;
+    cursor: pointer;
 
 }
 
@@ -460,6 +472,7 @@
     padding-top: 12px;
     padding-bottom: 12px;
     width: fit-content;
+    cursor: pointer;
 
 
 }
