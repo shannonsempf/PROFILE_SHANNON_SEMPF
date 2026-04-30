@@ -10,13 +10,16 @@
 
 /* FONT STYLES */
 
-
+@font-face {
+    font-family: 'constane';
+    src: url(./Fonts/constane-webfont.woff2) format('woff2');
+}
 
 
 .H1{
     display: flex;
     justify-content: center;
-    font-family: "Insigna";
+    font-family: "Times New Roman", Times, serif;
     color: black;
     font-weight:100;
     font-size:7rem;
@@ -29,11 +32,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Insigna Signature";
+    font-family: "constane";
     color: #722B0C;
-    font-weight:400;
-    font-size:9rem;
-    letter-spacing: 0.rem;
+    font-weight:500;
+    font-size:5.5rem;
     line-height: 10px;
 
 }
@@ -42,7 +44,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Insigna";
+    font-family: "Times New Roman", Times, serif;
     color: black;
     font-weight:1;
     font-size:1.1rem;
@@ -55,7 +57,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    font-family: "Insigna";
+    font-family: "Times New Roman", Times, serif;
     color: black;
     font-weight:1;
     font-size:2.5rem;
@@ -65,7 +67,7 @@
 }
 
 .H5{
-    font-family: "Insigna";
+    font-family: "Times New Roman", Times, serif;
     color: black;
     font-weight:1;
     font-size:1.8rem;
@@ -74,7 +76,7 @@
 }
 
 .H6{
-    font-family: "raleway";
+    font-family: "raleway", sans-serif;
     color: black;
     font-weight:500;
     font-size:1rem;
@@ -88,7 +90,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    font-family: "Insigna";
+    font-family: "Times New Roman", Times, serif;
     color: black;
     font-weight:1;
     font-size:3rem;
@@ -98,7 +100,7 @@
 }
 
 .a{
-    font-family: "raleway";
+    font-family: "raleway",serif;
     color: black;
     font-weight:500;
     font-size:1rem;
@@ -108,7 +110,7 @@
 
 
 .P1{
-    font-family: "raleway";
+    font-family: "raleway",serif;
     color: black;
     font-weight:400;
     font-size:1.2rem;
@@ -117,7 +119,7 @@
 }
 
 .P2{
-    font-family: "raleway";
+    font-family: "raleway",serif;
     color: black;
     font-weight:400;
     font-size:1rem;
@@ -247,6 +249,7 @@
     background-repeat: no-repeat;
     top: 320px;
     right: 110px;
+    
 
 }
 
